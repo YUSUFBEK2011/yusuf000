@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<body lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="body">
+   <div class="container">
+    <header>
+        <div class="container">
+            <div class="ota-box">
+                <img src="./Logo.png" alt="Logo">
+                <div class="ota-p">
+                    <p>Shop</p>
+                    <p>Brands</p>
+                    <p>Contact us</p>
+                    <button>Sign up</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="a">
+                <h1>Exquisite Watches</h1>
+                <h2>Choose Luxury,  <span class="span">Choose Us</span></h2>
+                <p>Discover the Perfect Watch for Every Occasion <br> and Elevate Your Style with Timeless Elegance <br> and Precision Craftsmanship - watch</p>
+                <h2 class="dollar">$430.00</h2>
+            </div>
+              <div class="b">
+                <swiper-container class="mySwiper" pagination="true" pagination-dynamic-bullets="true">
+                    <swiper-slide data-color="orange"><img src="./Frame 24.png" alt=""></swiper-slide>
+                    <swiper-slide data-color="grey"><img src="./Watches.png" alt=""></swiper-slide>
+                    <swiper-slide data-color="green"><img src="./Frame 26.png" alt=""></swiper-slide>
+                    <swiper-slide data-color="red"><img src="./Frame 28.png" alt=""></swiper-slide>
+                  </swiper-container>
+              </div>
+        </div>
+      
+    </main>
+    
+    
+    
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script>
+        const swiperContainer = document.querySelector('swiper-container');
+        swiperContainer.swiper.on('slideChange', () => { 
+          const activeSlide = swiperContainer.querySelector('.swiper-slide-active');
+          const color = activeSlide.getAttribute('data-color');     
+          document.body.style.backgroundColor = color;
+        });
+      </script>
+  </script>
+
+   </div>
+</body>
+</html>

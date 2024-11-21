@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+.ota-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ota-p {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.ota-p p {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.ota-p button {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background-color: black;
+}
+
+
+main .container {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 76px;
+    font-weight: 900;
+    line-height: 74.12px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 120px;
+
+}
+
+h2 {
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 60.06px;
+    letter-spacing: -0.01em;
+
+    margin-bottom: 50px;
+}
+
+.span {
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 60.06px;
+    letter-spacing: -0.01em;
+    color: black;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 45.6px;
+}
+
+.dollar {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 95.9px;
+    margin-top: 20px;
+}
+
+.b {
+    width: 500px;
+    height: 400px;
+}
+
+.a {
+    width: 600px;
+
+}
+
+swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
